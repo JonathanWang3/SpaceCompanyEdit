@@ -15,12 +15,12 @@ Game.buildingData = (function () {
         desc: 'Burns Charcoal to produce a steady source of Energy.',
         resource: 'energy',
         resourcePerSecond: {
-            'energy': 2,
-            'charcoal': -1
+            'energy': 20000000,
+            'charcoal': +1
         },
         cost: {
-            'metal': 50,
-            'gem': 25
+            'metal': 1,
+            'gem': 1
         }
     });
 
@@ -29,11 +29,11 @@ Game.buildingData = (function () {
         desc: 'Gains Energy slowly from the sun without using any resources.',
         resource: 'energy',
         resourcePerSecond: {
-            'energy': 1.5
+            'energy': 1000000000
         },
         cost: {
-            'metal': 30,
-            'gem': 35
+            'metal': 1,
+            'gem': 1
         }
     });
 
@@ -42,12 +42,12 @@ Game.buildingData = (function () {
         desc: 'Burn powerful methane from Venus to satisfy all your power needs.',
         resource: 'energy',
         resourcePerSecond: {
-            'energy': 23,
-            'methane': -6
+            'energy': 9999999999,
+            'methane': +1
         },
         cost: {
-            'lunarite': 110,
-            'titanium': 90
+            'lunarite': 1,
+            'titanium': 1
         }
     });
 
@@ -56,12 +56,12 @@ Game.buildingData = (function () {
         desc: 'Uses fission to create large amounts of power.',
         resource: 'energy',
         resourcePerSecond: {
-            'energy': 153,
-            'uranium': -7
+            'energy': 987654321,
+            'uranium': +69
         },
         cost: {
-            'lunarite': 20000,
-            'titanium': 10000
+            'lunarite': 1,
+            'titanium': 1
         }
     });
 
@@ -70,8 +70,8 @@ Game.buildingData = (function () {
         desc: 'The Magmatic Dynamo is a method of producing power by using lava as a fuel. Because of the extreme temperature of lava, a lot of Energy can be produced at once.',
         resource: 'energy',
         resourcePerSecond: {
-            'energy': 191,
-            'lava': -11
+            'energy': 191911919191,
+            'lava': +100
         },
         cost: {
             'lunarite': 25000,
@@ -102,14 +102,14 @@ Game.buildingData = (function () {
         desc: 'The Super-Heater throws electricity at Hydrogen to turn it into a plasmatic substance.',
         resource: 'plasma',
         resourcePerSecond: {
-            'energy': -1000,
-            'hydrogen': -10,
-            'plasma': 1
+            'energy': -1,
+            'hydrogen': -1,
+            'plasma': 1000000
         },
         cost: {
-            'lunarite': 75000,
-            'gem': 68000,
-            'silicon': 59000
+            'lunarite': 1,
+            'gem': 1,
+            'silicon': 1
         }
     });
 
@@ -134,15 +134,15 @@ Game.buildingData = (function () {
         desc: 'Bathing in Electrons. What could go wrong?',
         resource: 'plasma',
         resourcePerSecond: {
-            'energy': -15000,
-            'helium': -100,
-            'hydrogen': -100,
-            'plasma': 140
+            'energy': -1,
+            'helium': -1,
+            'hydrogen': -1,
+            'plasma': 140000000
         },
         cost: {
-            'lunarite': 6200000,
-            'silicon': 5900000,
-            'meteorite': 12100
+            'lunarite': 1,
+            'silicon': 1,
+            'meteorite': 1
         }
     });
 
@@ -152,12 +152,12 @@ Game.buildingData = (function () {
         desc: 'Pulverizes Uranium for easy transportation out of deep mineshafts.',
         resource: 'uranium',
         resourcePerSecond: {
-            'uranium': 1
+            'uranium': 10000
         },
         cost: {
-            'lunarite': 4000,
-            'titanium': 2000,
-            'gold': 2000
+            'lunarite': 1,
+            'titanium': 1,
+            'gold': 1
         }
     });
 
@@ -212,11 +212,11 @@ Game.buildingData = (function () {
         desc: 'You can use a modified crucible to pick up lava and to store it for later use.',
         resource: 'lava',
         resourcePerSecond: {
-            'lava': 1
+            'lava': 10000
         },
         cost: {
-            'lunarite': 4000,
-            'gem': 7000
+            'lunarite': 1,
+            'gem': 1
         }
     });
 
@@ -275,11 +275,11 @@ Game.buildingData = (function () {
         desc: 'Build a small pump to extract Oil from the ground.',
         resource: 'oil',
         resourcePerSecond: {
-            'oil': 1
+            'oil': 100000000
         },
         cost: {
-            'metal': 60,
-            'gem': 20
+            'metal': 1,
+            'gem': 1
         }
     });
 
@@ -335,11 +335,11 @@ Game.buildingData = (function () {
         resource: 'metal',
         unlocked: true,
         resourcePerSecond: {
-            'metal': 1
+            'metal': 100000000
         },
         cost: {
-            'metal': 10,
-            'wood': 5
+            'metal': 1,
+            'wood': 1
         }
     });
 
@@ -395,11 +395,11 @@ Game.buildingData = (function () {
         resource: 'gem',
         unlocked: true,
         resourcePerSecond: {
-            'gem': 1
+            'gem': 100000000
         },
         cost: {
-            'metal': 15,
-            'gem': 10
+            'metal': 1,
+            'gem': 1
         }
     });
 
@@ -454,12 +454,12 @@ Game.buildingData = (function () {
         desc: 'Build a shovel for your woodburner.',
         resource: 'charcoal',
         resourcePerSecond: {
-            'wood': -2,
-            'charcoal': 1
+            'wood': -1,
+            'charcoal': 100000000
         },
         cost: {
-            'metal': 10,
-            'wood': 5
+            'metal': 1,
+            'wood': 1
         }
     });
 
@@ -518,11 +518,11 @@ Game.buildingData = (function () {
         resource: 'wood',
         unlocked: true,
         resourcePerSecond: {
-            'wood': 1
+            'wood': 100000000
         },
         cost: {
-            'metal': 10,
-            'wood': 5
+            'metal': 1,
+            'wood': 1
         }
     });
 
@@ -577,11 +577,11 @@ Game.buildingData = (function () {
         desc: 'This type of blowtorch instantly turns sand into Silicon, but only on a small scale. To make it, extraterrestrial resources are required.',
         resource: 'silicon',
         resourcePerSecond: {
-            'silicon': 1
+            'silicon': 100000000
         },
         cost: {
-            'lunarite': 150,
-            'titanium': 30
+            'lunarite': 1,
+            'titanium': 1
         }
     });
 
